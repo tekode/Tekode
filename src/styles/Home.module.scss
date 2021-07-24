@@ -1,0 +1,71 @@
+@import "./base/Base.module.scss";
+
+.HomeWrap {
+    background: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.HomeTitle {
+    font-size: mob(36px);
+    color: white;
+    text-transform: uppercase;
+    font-family: $Audio;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 1px;
+}
+
+.Title1 {
+    font-family: $Audio;
+}
+
+.Title2 {
+    font-family: $BST;
+}
+
+.Title3 {
+    font-family: $BS;
+}
+
+.Title4 {
+    font-family: $JBM;
+}
+
+.Title5 {
+    font-family: $Mono;
+}
+
+.Title6 {
+    font-family: $Orb;
+}
+
+.Title7 {
+    font-family: $Poiret;
+}
+
+.Title8 {
+    font-family: $Press;
+}
+
+.Title9 {
+    font-family: $Unica;
+}
+
+.Title10 {
+    font-family: $VT;
+}
+
+@media #{$mq-medium} {
+    .HomeTitle {
+        font-size: tab(36px);
+    }
+}
+
+@media #{$mq-large} {
+    .HomeTitle {
+        font-size: des(48px);
+    }
+}
