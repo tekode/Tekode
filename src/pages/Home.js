@@ -25,6 +25,9 @@ const Home = (props) => {
         fetchHomeContent();
     }, []);
 
+    /*
+    * Sets random font
+    */
     const setRandomFont = () => {
         let random = Math.floor(Math.random() * (10 - 1 + 1) + 1);
         let randomStyle = styles.Title1;
