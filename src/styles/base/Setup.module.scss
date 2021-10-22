@@ -23,20 +23,11 @@
    *******************/
   
   $mq-screen: "screen";
-  $mq-small: "screen and (min-width: 768px)";
-  $mq-medium: "screen and (min-width: 780px)";
-  $mq-large: "screen and (min-width: 1080px)";
-  $mq-largest: "screen and (min-width: 1760px)";
+  $mq-small: "screen and (min-width: 375px)";
+  $mq-medium: "screen and (min-width: 768px)";
+  $mq-large: "screen and (min-width: 1024px)";
+  $mq-largest: "screen and (min-width: 1440px)";
   
 
 // Variables
-$Audio: 'Audiowide', cursive;
-$BST: 'Big Shoulders Text', cursive;
-$BS: 'Bungee Shade', cursive;
-$JBM: 'JetBrains Mono', cursive;
-$Mono: 'Monoton', cursive;
-$Orb: 'Orbitron', cursive;
-$Poiret: 'Poiret One', cursive;
-$Press: 'Press Start 2P', cursive;
-$Unica: 'Unica One', cursive;
-$VT: 'VT323', cursive;
+$Iceland: 'Iceland', sans-sarif;
