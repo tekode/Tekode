@@ -4,68 +4,73 @@
     background: black;
     width: 100%;
     height: 100vh;
+    overflow: hidden;
+}
+
+.HomeContentWrap {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 18em;
+    margin-top: 17em;
 }
 
 .HomeTitle {
-    font-size: mob(36px);
+    font-size: 4em;
     color: white;
     text-transform: uppercase;
-    font-family: $Audio;
+    font-family: $Iceland;
+}
+
+.HomeLogo {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    letter-spacing: 1px;
+    width: 35em;
+    margin-top: -17.5em;
+    margin-left: -17.5em;
 }
 
-.Title1 {
-    font-family: $Audio;
-}
-
-.Title2 {
-    font-family: $BST;
-}
-
-.Title3 {
-    font-family: $BS;
-}
-
-.Title4 {
-    font-family: $JBM;
-}
-
-.Title5 {
-    font-family: $Mono;
-}
-
-.Title6 {
-    font-family: $Orb;
-}
-
-.Title7 {
-    font-family: $Poiret;
-}
-
-.Title8 {
-    font-family: $Press;
-}
-
-.Title9 {
-    font-family: $Unica;
-}
-
-.Title10 {
-    font-family: $VT;
+.HomeCopy{
+    font-size: 1.25em;
+    color: #fff;
+    font-family: $Iceland;
 }
 
 @media #{$mq-medium} {
+    .HomeContentWrap {
+        height: 20em;
+        margin-top: 12.75em;
+    }
+
     .HomeTitle {
-        font-size: tab(36px);
+        font-size: 7em;
+    }
+
+    .HomeCopy{
+        font-size: 2.75em;
     }
 }
 
 @media #{$mq-large} {
+    .HomeContentWrap {
+        height: 8em;
+        margin-top: 18em;
+    }
+
+    .HomeLogo {
+        width: 20em;
+        margin-top: -10em;
+        margin-left: -10em;
+    }
+
     .HomeTitle {
-        font-size: des(48px);
+        font-size: 11.5em;
+        line-height: 0.8;
+    }
+
+    .HomeCopy{
+        font-size: 4.5em;
     }
 }
